@@ -1,0 +1,171 @@
+body {
+    display: grid;
+    padding: 10px;
+    gap: 20px;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+}
+
+/*********************** HEADER ***********************/
+.caja_header {
+    display: flex;
+    align-items: flex-start;
+    place-items: center;
+}
+
+.titulo {
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    color: blue;
+}
+
+/*********************** MAIN ***********************/
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja_main{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/*********************** MAIN INDEX***********************/
+.caja_main_NP {
+    display: flex;
+    flex-direction: column;
+    gap: 50vh;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.style_btn_IniciarJuego {
+    background: #0A3871;
+    color: #E5E5E5;
+    border-radius: 25px;
+    height: 4em;
+    width: 12em;
+    cursor: pointer;
+}
+
+.style_btn_IniciarJuego:active {
+    transform: scale(.8);
+}
+
+.style_btn_AgregarPalabra {
+    background: #E5E5E5;
+    border-radius: 25px;
+    height: 4em;
+    width: 12em;
+    cursor: pointer;
+}
+
+.style_btn_AgregarPalabra:active {
+    transform: scale(.8);
+}
+
+/*********************** MAIN Nueva_Palabra***********************/
+textarea {
+    border: none;
+    font-weight: bold;
+    font-size: x-large;
+    width: auto;
+    height: auto;
+    text-transform: uppercase;
+}
+
+p {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+.style_btn_GuardarEmpezar {
+    background: #0A3871;
+    color: #E5E5E5;
+    border-radius: 25px;
+    height: 4em;
+    width: 12em;
+    cursor: pointer;
+}
+
+.style_btn_GuardarEmpezar:active {
+    transform: scale(.8);
+}
+
+.style_btn_Cancelar {
+    background: #E5E5E5;
+    border-radius: 25px;
+    height: 4em;
+    width: 12em;
+    cursor: pointer;
+}
+
+.style_btn_Cancelar:active {
+    transform: scale(.8);
+}
+
+
+.style_btn_nuevoJuego {
+    background: #0A3871;
+    color: #E5E5E5;
+    border-radius: 25px;
+    height: 4em;
+    width: 12em;
+    cursor: pointer;
+}
+
+.style_btn_nuevoJuego:active {
+    transform: scale(.8);
+}
+
+.style_btn_Desistir {
+    background: #E5E5E5;
+    border-radius: 25px;
+    height: 4em;
+    width: 12em;
+    cursor: pointer;
+}
+
+.style_btn_Desistir:active {
+    transform: scale(.8);
+}
+/***********************    FOOTER ***********************/
+footer {
+    display: grid;
+    grid-auto-flow: row;
+    padding: 0px;
+    gap: 0px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.caja_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_desarrollador {
+    border: 1px solid gray;
+    border-radius: 8px;
+    max-width: 15%;
+    text-align: center;
+}
+
+.contacto_desarrollador {
+    color: #0A3871;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+    margin: auto;
+}

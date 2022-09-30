@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Nueva Palabra</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="caja_header">
+            <div>
+                <img src="imagenes/Vector.png" alt="imagen Alura">
+            </div>
+            <div>
+                <p class="titulo">Challenge ONE - Juego del Ahorcado</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="caja_main_NP">
+            <div>
+                <textarea type="text" class="textarea_nuevaPalabra" placeholder="Ingrese una palabra" onkeypress="validar_mensaje(event)"  required></textarea>
+            </div>
+            <div>
+                <p id="alerta_mensaje">&#9406; Máx. de 8 letras &#8252;</p>
+                <button class="style_btn_GuardarEmpezar" onclick="guardar_y_empezar()">Guardar y empezar</button>
+                <button class="style_btn_Cancelar" id="btn_cancelar">Cancelar</button>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="caja_footer">
+            <div class="desarrollador">
+                <a href="https://www.linkedin.com/in/ing-erikapcamberosr/">
+                    <img class="img_desarrollador" src="imagenes/IngErikaCamberos.png" alt="Desarrollador Erika Camberos">
+                </a>
+                <p class="contacto_desarrollador">Sitio web desarrollado por: </p>
+                <p class="contacto_desarrollador">Ing. Erika Camberos</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script_palabras.js"></script>
+    <script src="script_agregarNuevaPalabra.js"></script>
+        
+</body>
+</html>
